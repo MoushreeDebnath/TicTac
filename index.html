@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Tic-Tac-Toc Game</title>
+</head>
+<body>
+    <div class="form-container">
+        <div id="myForm">
+            <input type="text" id="player1" name="player1" value="" placeholder="Enter player1.....">
+            <input type="text" id="player2" name="player1" value="" placeholder="Enter player2.....">
+            <input onclick="myForm()" type="submit" id="submit-btn" class="btn-style" value="submit">
+        </div>
+    </div>
+    <div class="game-container hide">
+        <div class="msg-container hide">
+            <p id="msg">Winner</p>
+            <button id="new-btn" class="btn-style">New Game</button>
+        </div>
+        <main>
+            <h1>Tic Tac toc</h1>
+            <div class="box-container">
+                <div class="game">
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                </div>
+            </div>
+            <button id="reset-btn" class="btn-style">Reset game</button>
+        </main>
+    </div>
+   
+    <script src="app.js"></script>
+</body>
+</html>
